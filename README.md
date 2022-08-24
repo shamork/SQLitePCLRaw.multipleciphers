@@ -24,7 +24,7 @@ void Main()
 	using var connection = new SqliteConnection(@"Data Source=sqlmc.db");
 	Console.WriteLine($"System SQLite version: {connection.ServerVersion}");
   
-	const string setKey = "PRAGMA key = '';";//new db without pass
+	const string setKey = "PRAGMA key = NULL;";//new db without key
 	connection.Execute(setKey);  
   
 	connection.Execute("PRAGMA cipher = 'aes256cbc';");//set cipher
