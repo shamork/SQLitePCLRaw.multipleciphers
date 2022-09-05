@@ -52,8 +52,6 @@ Down load zip and get the dll from https://github.com/utelle/SQLite3MultipleCiph
 You can use dll from then following zips as your wish
 
 ```
-sqlite3mc-x.y.z-sqlite-x.y.z-icu-win32.zip
-sqlite3mc-x.y.z-sqlite-x.y.z-icu-win64.zip
 sqlite3mc-x.y.z-sqlite-x.y.z-win32.zip
 sqlite3mc-x.y.z-sqlite-x.y.z-win64.zip
 ```
